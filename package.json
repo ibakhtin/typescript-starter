@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.18",
@@ -14,6 +12,7 @@
     "nodemon": "^1.19.2",
     "ts-jest": "^24.1.0",
     "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
     "typescript": "^3.6.3"
   }
 }
