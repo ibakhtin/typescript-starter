@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "serve": "npx nodemon --delay 3 --watch src --exec ts-node src/index.ts"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.18",

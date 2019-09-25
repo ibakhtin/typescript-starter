@@ -1,6 +1,6 @@
 export class Greeter {
   
-  constructor(public greeting: string) {}
+  constructor(private greeting = "Hello") {}
 
   greet(name = "World"): string {
     return `${this.greeting}, ${name}!`
